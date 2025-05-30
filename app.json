@@ -1,0 +1,26 @@
+{
+  "name": "Bai Elim",
+  "displayName": "Bai Elim",
+  "slug": "baielim",
+  "icon": "./assets/beielim-logo.png",
+  "android": {
+    "package": "com.navisdevs.baielim",
+    "compileSdkVersion": 34,
+    "targetSdkVersion": 34,
+    "buildToolsVersion": "34.0.0"
+  },
+  "ios": {
+    "bundleIdentifier": "com.navisdevs.baielim"
+  },
+  "splash": {
+    "image": "./assets/images/baielimSplash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#fff"
+  },
+  "version": "1.0.1",
+  "extra": {
+    "eas": {
+      "projectId": "81f038ad-4d5e-4302-bac5-0bac45800826"
+    }
+  }
+}

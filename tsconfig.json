@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+, "components/Main/Main.jsx", "components/Main/HurryUpToBuy.jsx", "components/Main/Promotion.jsx", "app/(tabs)/catalog.jsx", "pages/CatalogPage.jsx", "app/details/[cat].jsx", "app/details/ProductId/Images.jsx", "app/details/ProductId/[id].jsx", "components/Main/Header.jsx", "pages/ProfilePage.jsx", "components/Main/BonusCart.jsx", "components/Main/QrCode.jsx", "app/navigate/PromotionDetails.jsx", "app/navigate/BasketPage.jsx", "app/details/PromotionId/[id].jsx", "app/navigate/EmptyAddress.jsx", "app/navigate/NewAddress.jsx", "app/navigate/PurchaseHistory.jsx", "app/details/PurchaseId/[id].jsx", "app/navigate/SettingPage.jsx", "components/Main/StorisBlock.jsx", "app/navigate/HarryBuyDetails.jsx", "app/details/HarryDetailsId/[id].jsx", "app/navigate/Notifications.jsx", "app/navigate/AboutTheApplication.jsx", "app/auth/Login.jsx", "app/auth/Registration.jsx", "app/auth/ForgotPassword.jsx", "app/auth/ActivationForgot.jsx", "app/auth/ResetPassword.jsx", "app/auth/Activation.jsx", "app/navigate/FeaturedProducts.jsx"  ]
+}
